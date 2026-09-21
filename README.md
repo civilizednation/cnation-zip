@@ -31,7 +31,7 @@ GitHub에 소스만 올리면 앱이 실행되지는 않으므로 Pages 또는 �
 - worker.mjs: 백그라운드 압축 작업
 - zip-core.mjs: 일반 ZIP 생성 및 이전 버전 묶음 복원
 - standard-zip.mjs: 표준 분할 ZIP 생성, 검증, 일반 ZIP으로 합치기
-- manifest.json, icon.svg: 홈 화면 추가 관련 정보
+- manifest.json, icon-192.png, icon-512.png, apple-touch-icon.png: 홈 화면 추가 관련 정보
 - tests/: 압축·분할·복원 검사 코드
 
 원본 개발 저장소에서는 화면 소스가 dist/ 안에 있으며, 다운로드 ZIP에는 최상위에 배치됩니다.
